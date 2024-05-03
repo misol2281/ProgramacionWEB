@@ -1,0 +1,168 @@
+*{
+	font-family: "Montserrat", sans-serif;
+}
+
+body{background:#000000;}
+h1, h2, h3, h4, h5, h6{margin: 0;font-family: 'Montserrat'; color: #5c5c5c;  text-transform: uppercase; padding-bottom: 15px;}
+h1{ font-size: 30px; }
+h2{ font-size: 20px;}
+h3{ font-size: 18px;}
+h4{ font-size: 16px;}
+h5{ font-size: 14px;}
+h6{ font-size: 12px;}
+p{ font-size: 14px; font-family: 'source_sans_proregular'; color: #a5a5a5; margin-right:0; margin-bottom: 15px; line-height: 24px;}
+p:nth-last-child(1){
+	margin-bottom: 0;
+}
+a{ transition:all 1s; color: #a5a5a5;}
+
+ul{
+	padding-left: 0;
+	list-style-position: inside;
+}
+
+.box{
+	border:1px solid #eee;
+	padding: 30px 40px 30px 30px;
+	overflow: hidden;
+}
+.radi-c1{
+	-webkit-border-radius: 5px 0 0 0;
+	-moz-border-radius: 5px 0 0 0;
+	border-radius: 5px 0 0 0;
+}
+.radi-c2{
+	-webkit-border-radius: 0 5px 0 0;
+	-moz-border-radius: 0 5px 0 0;
+	border-radius: 0 5px 0 0;
+}
+.radi-c3{
+	-webkit-border-radius: 0 0 5px 0;
+	-moz-border-radius: 0 0 5px 0;
+	border-radius: 0 0 5px 0; 		
+}
+.radi-c4{
+	-webkit-border-radius: 0 0 0 5px;
+	-moz-border-radius: 0 0 0 5px;
+	border-radius: 0 0 0 5px;
+}
+
+.radi-c3-c4{
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+}
+.radi-c4-c1{
+	-webkit-border-radius: 5px 0 0 5px;
+	-moz-border-radius: 5px 0 0 5px;
+	border-radius: 5px 0 0 5px;
+}
+.radi-c1-c3{
+	-webkit-border-radius: 5px 0 5px 0;
+	-moz-border-radius: 5px 0 5px 0;
+	border-radius: 5px 0 5px 0;
+}
+.radi-c2-c4{
+	-webkit-border-radius: 0 5px 0 5px;
+	-moz-border-radius: 0 5px 0 5px;
+	border-radius: 0 5px 0 5px;
+}
+
+.container {
+	background-color: #0f2128;
+	padding: 100px;
+	
+}
+
+
+/*------------------------------------------------------
+		Banner Styles
+-------------------------------------------------------*/
+.banner{
+	background-color: #0f2128;
+	height: 440px;
+	
+	border-radius: 5px;
+}
+.box1, .box2, .box3, .box4{
+	width: 50%;
+	height: 220px;
+	float: left;
+	position: relative;
+}
+.box1{
+	background: url(/Redes2/CSS/img/NumeroMasGrande.jpg);
+	background-size: cover;
+}
+.box2{
+	background: url(/Redes2/CSS/img/ParoImpar.jpg);
+	background-size: cover;
+}
+.box3{
+	background: url(/git/CSS/img/NumeroMasGrande2.jpg);
+	background-size: cover;
+}
+.box4{
+	background: url(/git/CSS/img/Ruleta.jpg);
+	background-size: cover;
+}
+.banner-item .box3 h3{
+	border-radius: 0 0 0 5px;
+}
+.banner-item{
+	border-radius: 10px;
+}
+.banner-item h3{
+	text-transform: uppercase;
+	display: inline-block;
+	background: #000 !important;
+	padding: 10px;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+}
+.box1:hover, .box2:hover, .box3:hover, .box4:hover{
+	transition:all 0.5s;
+	background: url(/Redes2/CSS/img/bannerOf.gif);
+	background-size: cover;
+}
+.box1:hover h3, .box2:hover h3, .box3:hover h3, .box4:hover h3{
+	background: #FFD700 !important;
+	transition:all 0.5s;
+	
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .banner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: auto;
+    }
+
+    .banner-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .box1, .box2, .box3, .box4 {
+        width: 100%;
+        height: 200px;
+    }
+
+    .box1, .box2, .box3, .box4 {
+        padding: 20px;
+    }
+
+    .banner-item h3 {
+        position: static;
+        margin-top: 10px;
+    }
+}
+
+
+
