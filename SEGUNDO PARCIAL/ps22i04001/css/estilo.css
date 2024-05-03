@@ -1,0 +1,180 @@
+body{
+    margin: 0%;
+}
+header{
+    z-index: 999;
+}
+/* CABECERA */
+#ccabecera{
+    width: 100%;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    z-index: 999;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(85,22,53,1) 21%, rgba(121,15,80,1) 42%, rgba(194,11,107,1) 65%);
+}
+#cabecera{
+    width: 100%;
+    max-width: 1100px; /* ancho maximo */
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+#logo img{
+    width: 100px;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 6px 0;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-start; /* para posicionar al final */
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+.menu a{
+    display: block;
+    line-height: 87px;
+    padding: 0 10px;
+    font-family: "Poppins", sans-serif;
+    color: azure;
+    text-decoration: none;
+    font-size: 40px;
+}
+.menu a:hover{
+    color: #31E1F7;
+    border-bottom: 2px solid #31E1F7 ;
+}
+#banner{/* lo siento ing pero no pude hacerlo por background se me sobreponía en todo y no supe arreglarlo */
+    height: 1004px;
+    width: 100%;
+}
+/* INICIO */
+.inicio{
+    background-color:#F6F5F2;
+    height: 920px;
+    position: relative;
+    padding-top: 150px;
+}
+#contenido-inicio{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+#contenido-inicio h2{
+    font-family:"Archivo Black", sans-serif;
+    color: #790252;
+    text-align: center;
+    display: block;
+    margin-top: 180px;
+}
+#contenido-inicio h2 .tit1{
+    display: block;
+    font-size: 44px;
+    margin: 0%;
+}
+.calendario{
+    background: azure url(../img/fondo-ciudad.png) no-repeat bottom;
+    position: relative;
+    padding-top: 150px;
+    padding: 200px;
+    overflow: hidden;
+}
+#contenido-calendario{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+#contenido-calendario h2{
+    font-family: "Archivo Black", sans-serif;
+    color: #790252;
+    text-align: center;
+    display: block;
+    margin-top: 180px;
+}
+#contenido-calendario h2 .tit1{
+    display: block;
+    font-size: 44px;
+    margin: 0%;
+}
+.articulos{
+    background-color:#F6F5F2;
+    height: 920px;
+    position: relative;
+    padding-top: 150px;
+}
+#contenido-articulos{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+#contenido-articulos h2{
+    font-family: "Archivo Black", sans-serif;
+    color: #790252;
+    text-align: center;
+    display: block;
+    margin-top: 180px;
+}
+#contenido-articulos h2 .tit1{
+    display: block;
+    font-size: 44px;
+    margin: 0%;
+}
+.tren{
+    width: 50%;
+    height: auto;
+    display: block;
+    max-width: 929px;
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+}
+.mas{
+    background: azure url(../img/fondo-ciudad.png) no-repeat bottom;
+    position: relative;
+    padding-top: 150px;
+    padding: 200px;
+    overflow: hidden;
+}
+#contenido-mas{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+#contenido-mas h2{
+    font-family: "Archivo Black", sans-serif;
+    color: #790252;
+    text-align: center;
+    display: block;
+    margin-top: 180px;
+}
+#contenido-mas h2 .tit1{
+    display: block;
+    font-size: 44px;
+    margin: 0%;
+}
+footer{
+    background-color: #790252;
+    padding: 20px;
+    display: flex;
+}
+footer h2{
+    font-family: "Poppins", sans-serif;
+    color: azure;
+    text-align: left;
+    justify-content: flex-end;
+}
+.iconosf{
+    color: #f206ad;
+    justify-content:flex-end;
+    font-size: 40px;
+    margin-left: 10px;
+    padding: 12px;
+}
+
+
