@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dados Game</title>
+  <link rel="stylesheet" href="/Redes2/CSS/NumeroMasGrande.css">
+  <link rel="stylesheet" href="/Redes2/CSS/menu.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="/Redes2/CSS/footer.css">
+</head>
+<body>
+  <nav>
+    <ul class="menu">
+      <li class="logo"><img src="/Redes2/CSS/img/Logo casino.png" alt=""></li>
+      <li class="item"><a href="/Redes2/Index.html">Home</a></li>
+      <li class="item"><a href="#">Sobre Nosotros</a></li>
+      <li class="item"><a href="#">Perfil</a></li>
+      <li class="item"><a href="#">Talento Humano</a></li>
+      <li class="item"><a href="#">Contacto</a></li>
+      
+      </li>
+      <li class="item button"><a href="/Redes2/login.html">Log In</a></li>
+      <li class="item button secondary"><a href="/Redes2/login.html">Sign Up</a></li>
+      <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+    </ul>
+  </nav>
+  <script src="/Redes2/JS/menu.js"></script>
+  
+  <div class="container">
+    <h1>Numero Mas Grande</h1>
+    <div>
+        <h2>Indicaciones: </h2>
+        <p>Primero debes ingresar la cantidad de dinero que deseas apostar y la casa igualará la apuesta, <br>luego se tiran los dados y se suman sus resultados, el numero mas grande gana la suma de las apuestas. </p>
+        
+    </div>
+    <div class="container-img">
+      <div class="player">
+          <h2>Jugador</h2>
+          <div class="dice" id="dado1"><img class="img1" src="/Redes2/CSS/img/dado4.jpg" alt=""></div>
+          <div class="dice" id="dado2"><img class="img2" src="/Redes2/CSS/img/dado5.jpg" alt=""></div>
+          <input type="number" id="bet1" placeholder="Apuesta">
+          <div id="money1">Dinero del Jugador 1:</div>
+        </div>
+        <div class="player">
+          <h2>Crupier</h2>
+          <div class="dice" id="dado3"><img class="img3" src="/Redes2/CSS/img/dado1.jpg" alt=""></div>
+          <div class="dice" id="dado4"><img class="img4" src="/Redes2/CSS/img/dado6.jpg" alt=""></div>
+          <input type="number" id="bet2" placeholder="Apuesta" readonly>
+          <div id="money2">Dinero del Jugador 2: </div>
+        </div>
+    </div>
+    <div id="result"></div>
+      <div id="mensaje"></div>
+      <div id="mensaje2"></div>
+    <button onclick="rollDice()">Tirar</button>
+    
+  </div>
+  <script src="/Redes2/JS/NumeroMasGrande.js"></script>
+  <footer>
+    <div class="footer">
+      <div class="row">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+      </div>
+    
+    <div class="row">
+      <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">¿Quienes somos?</a></li>
+      <li><a href="#">Perfil</a></li>
+      <li><a href="#">Terms & Conditions</a></li>
+      
+      </ul>
+    </div>
+    
+      <div class="row">
+      STADISTICS Copyright © 2025 - All rights reserved || Designed By: GrupoREDES2
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
